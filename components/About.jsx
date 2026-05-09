@@ -35,10 +35,8 @@ const About = ({ isDarkMode }) => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.8 }}
         >
-          <p className='mb-10 max-w-2xl font-Ovo'>I am an experienced Frontend Developer with over a decade of professional expertise in the field.
-            Throughout my career, I have had the privilage of collaborating with prestigious organisations,
-            contributing to their success and growth.
-          </p>
+          <p className='mb-6 max-w-2xl font-Ovo'>I am a Senior Frontend Engineer with 7+ years of experience delivering scalable, production-grade web applications with React.js, modern JavaScript, and reusable component architecture. I focus on performance, accessibility, and maintainable state management to build interfaces that users love and businesses trust.</p>
+          <p className='mb-10 max-w-2xl font-Ovo'>I partner with UX/UI teams to transform product strategy into clear, intuitive experiences. Experienced in Agile delivery, Git workflows, and Azure DevOps, I contribute to efficient planning, reliable releases, and codebases that remain clean, scalable, and easy to maintain.</p>
 
           <motion.ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'
             initial={{ opacity: 0 }}

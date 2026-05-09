@@ -25,9 +25,7 @@ function Services({ isDarkMode }) {
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.7 }}
-            >I am a frontend developer from California, USA with 10 years of experience
-                in multiple companies like Microsoft, Tesla and Apple.
-            </motion.p>
+            >I deliver modern frontend solutions that balance performance, accessibility, and product design. My services are tailored to help teams ship scalable React applications and polished user interfaces with confidence.</motion.p>
             <motion.div className='grid grid-cols-auto gap-6 my-10'
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
@@ -43,7 +41,7 @@ function Services({ isDarkMode }) {
                             <Image src={icon} className='w-10' alt='' />
                             <h3 className='text-lg my-4 text-gray-700 dark:text-white'>{title}</h3>
                             <p className='text-sm text-gray-600 leading-5 dark:text-white/80'>{description}</p>
-                            <a href="link" className='flex items-center gap-2 text-sm mt-5'>Read more
+                            <a href={link || '#contact'} className='flex items-center gap-2 text-sm mt-5'>Read more
                                 <Image alt='' src={assets.right_arrow} className='w-4' />
                             </a>
                         </motion.div>

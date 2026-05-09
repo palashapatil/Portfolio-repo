@@ -100,15 +100,15 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Web application development', description: 'Build scalable, performant React web applications with clean architecture, component-driven structure, and reliable deployments.', link: '' },
+    { icon: assets.mobile_icon, title: 'Responsive experience design', description: 'Create adaptive and accessible interfaces that deliver consistent results across desktop and mobile environments.', link: '' },
+    { icon: assets.ui_icon, title: 'UI/UX engineering', description: 'Translate design systems into polished, maintainable frontend experiences while preserving usability and accessibility.', link: '' },
+    { icon: assets.graphics_icon, title: 'Frontend consulting', description: 'Provide technical guidance on frontend strategy, performance optimization, and code quality for growth-stage teams.', link: '' },
 ]
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelors in Mechanical Engineering' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
